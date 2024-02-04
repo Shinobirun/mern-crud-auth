@@ -1,6 +1,7 @@
 import {Router} from 'express'
 import {login, register} from '../controllers/auth.comtrolers.js'
 
+
 const router = Router()
 
 router.post('/register', register);
