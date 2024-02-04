@@ -1,0 +1,11 @@
+React                          
+React Router
+React Hook Form
+Axios
+Contex
+
+
+Nodejs	
+Express
+
+Rest Api
