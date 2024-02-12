@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 const taskSchema =new mongoose.Schema ({
 
-    tittle: {
+    title: {
         type: String,
         required: true,
     },
@@ -18,12 +18,12 @@ const taskSchema =new mongoose.Schema ({
     user:{
         type: mongoose.Schema.Types.ObjectId, 
         ref: 'User',
-        require: true
+        require: true,
     }
 },
     {
-        timestamps: true
+        timestamps: true,
     }
 );
 
-export default mongoose.model('Task',taskSchema)
+export default mongoose.model('Task',taskSchema) 
